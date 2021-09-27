@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="215" max="-2" attributes="0"/>
+                          <Component id="lblTitleV" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="361" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblNameV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCountryV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDobV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblTelnumV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblMedrecnumV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblSsnV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblemailV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFaxnumV" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="txtNameV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtCountryV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtDobV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtTelnumV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtFaxnumV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtEmailV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtSsnV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="txtMedrecnumV" linkSize="1" alignment="2" min="-2" pref="146" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="624" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblHealthbennumV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblBankaccnumV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblUniqueidV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblIpaddV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLinkedinV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDevidV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblVehicleidV" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCertnumV" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtHealthbennumV" linkSize="1" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="txtBankaccnumV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtUniqueidV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtIpaddV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtLinkedinV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtDevidV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtVehicleidV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtCertnumV" linkSize="1" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="253" max="-2" attributes="0"/>
+                  <Component id="lblImage" min="-2" pref="516" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                  <Component id="lblTitleV" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNameV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNameV" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblHealthbennumV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHealthbennumV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblCountryV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCountryV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblBankaccnumV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtBankaccnumV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblDobV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDobV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblCertnumV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCertnumV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTelnumV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTelnumV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblVehicleidV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtVehicleidV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblFaxnumV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFaxnumV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblDevidV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDevidV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblemailV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEmailV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblLinkedinV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLinkedinV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblSsnV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSsnV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblIpaddV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIpaddV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblMedrecnumV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMedrecnumV" linkSize="3" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblUniqueidV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUniqueidV" linkSize="3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblImage" min="-2" pref="338" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTitleV">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Apple Color Emoji" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="8b" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="View Profile"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNameV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCountryV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Country:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDobV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date of Birth:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTelnumV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telephone:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaxnumV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fax:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblemailV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Email:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSsnV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SSN:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMedrecnumV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Medical Record Num:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblHealthbennumV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Health Plan Beneficiary Num:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBankaccnumV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bank A/C Num:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCertnumV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Certificate Num:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblVehicleidV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vehicle ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDevidV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Device ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLinkedinV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="LinkedIn:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIpaddV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IP address:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblUniqueidV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Unique ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNameV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCountryV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDobV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTelnumV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFaxnumV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEmailV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSsnV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMedrecnumV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHealthbennumV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBankaccnumV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCertnumV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtVehicleidV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDevidV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLinkedinV">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIpaddV">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblImage">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUniqueidV">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
