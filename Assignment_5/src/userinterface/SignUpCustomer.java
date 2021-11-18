@@ -78,6 +78,8 @@ public class SignUpCustomer extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
         txtNo = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(0, 255, 255));
+
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         jLabel1.setText("Sign Up Customer");
 
@@ -118,7 +120,7 @@ public class SignUpCustomer extends javax.swing.JPanel {
             }
         });
 
-        jLabel8.setText("City");
+        jLabel8.setText("City:");
 
         txtAptNo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,7 +128,7 @@ public class SignUpCustomer extends javax.swing.JPanel {
             }
         });
 
-        jLabel9.setText("State");
+        jLabel9.setText("State:");
 
         txtState.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -47,6 +47,10 @@ public class RestaurantMainPage extends javax.swing.JPanel {
         jButton3 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
 
+        jSplitPane1.setBackground(new java.awt.Color(0, 255, 255));
+
+        jPanel1.setBackground(new java.awt.Color(0, 255, 255));
+
         jButton1.setText("Logout");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +97,8 @@ public class RestaurantMainPage extends javax.swing.JPanel {
         );
 
         jSplitPane1.setLeftComponent(jPanel1);
+
+        jPanel2.setBackground(new java.awt.Color(0, 255, 255));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
