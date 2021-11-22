@@ -14,6 +14,7 @@ import Business.Role.CustomerRole;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 /**
@@ -313,8 +314,60 @@ public class SignUpRestaurant extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtZipActionPerformed
 
+    public boolean validateRestaurant(){
+        if (txtAptNo.getText().equals("") || txtCity.getText().equals("") || txtFullName.getText().equals("") || txtNo.getText().equals("") || txtPass.getText().equals("") || txtState.getText().equals("") || txtStreet.getText().equals("") || txtUsrName.getText().equals("") || txtZip.getText().equals("")) {
+            JOptionPane.showMessageDialog(this, "All the fields are mandatory");
+        } else {
+            
+            if (!txtAptNo.getText().matches("[0-9 ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid apartment number");
+                return false;
+            }
+            
+            if (txtCity.getText().length() < 3 || !txtCity.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid city.");
+                return false;
+            }
+            
+            if (txtFullName.getText().length() < 4 || !txtFullName.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid name.");
+                return false;
+            }
+            
+            if (txtUsrName.getText().length() < 4 || !txtUsrName.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid user name.");
+                return false;
+            }
+            
+            if (!txtNo.getText().matches("[0-9 ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid contact number");
+                return false;
+            }
+            
+            if (txtState.getText().length() < 3 || !txtState.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid state.");
+                return false;
+            }
+            
+            if (txtStreet.getText().length() < 3 || !txtStreet.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid city.");
+                return false;
+            }
+            
+            if (!txtZip.getText().matches("[0-9 ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid zip code");
+                return false;
+            }
+            
+        }
+        return true;
+    }
+    
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        if(validateRestaurant()){
+        
         Address add =new Address(txtStreet.getText(), Integer.parseInt(txtAptNo.getText()), txtCity.getText(), txtState.getText(), Integer.parseInt(txtZip.getText()));
 
         Restaurant r = new Restaurant(txtUsrName.getText(), txtPass.getText(), new CustomerRole(), txtNo.getText(), txtFullName.getText(), add);
@@ -325,6 +378,7 @@ public class SignUpRestaurant extends javax.swing.JPanel {
         MainJFrame suc = new MainJFrame();
         this.setVisible(false);
         suc.setVisible(true);
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

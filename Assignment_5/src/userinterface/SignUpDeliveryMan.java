@@ -15,6 +15,7 @@ import static Business.Role.Role.RoleType.DeliveryMan;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 /**
@@ -196,19 +197,47 @@ public class SignUpDeliveryMan extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    public boolean validateDeliveryMan(){
+        
+        if(txtFullName.getText().equals("") || txtAcc.getText().equals("") || txtNo.getText().equals("") || txtPass.getText().equals("") || txtUsrName.getText().equals("")){
+        JOptionPane.showMessageDialog(this, "All the fields are mandatory");    
+        }else{
+            if (txtFullName.getText().length() < 4 || !txtFullName.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid name.");
+                return false;
+            }
+            
+            if (txtUsrName.getText().length() < 4 || !txtUsrName.getText().matches("[a-z A-Z ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid user name.");
+                return false;
+            }
+            
+            if (!txtNo.getText().matches("[0-9 ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid contact number");
+                return false;
+            }
+            
+            if (!txtAcc.getText().matches("[0-9 ]+")) {
+                JOptionPane.showMessageDialog(this, "Please enter a valid contact number");
+                return false;
+            }
+        }
+        return true;
+    }
+    
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        if (validateDeliveryMan()) {
+            DeliveryMan d = new DeliveryMan(txtUsrName.getText(), txtPass.getText(), new DeliverManRole(), txtNo.getText(), txtFullName.getText(), txtAcc.getText());
 
-        DeliveryMan d = new DeliveryMan(txtUsrName.getText(), txtPass.getText(), new DeliverManRole(), txtNo.getText(), txtFullName.getText(), txtAcc.getText());
-        
-        e.addDeliveryMan(d);
+            e.addDeliveryMan(d);
 
-        dB4OUtil.storeSystem(e);
+            dB4OUtil.storeSystem(e);
 
-        MainJFrame suc = new MainJFrame();
-        ((JFrame) SwingUtilities.getWindowAncestor(this)).dispose();
-        suc.setVisible(true);
-
+            MainJFrame suc = new MainJFrame();
+            ((JFrame) SwingUtilities.getWindowAncestor(this)).dispose();
+            suc.setVisible(true);
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void txtFullNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtFullNameActionPerformed
